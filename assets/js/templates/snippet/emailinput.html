@@ -1,7 +1,7 @@
 <div class="form-group">
   <label class="font-weight-bold" for="{{ id }}">{{ label }}</label>
   
-    <input id="{{ id }}" name="{{ id }}" type="text" placeholder="{{ placeholder }}" class="form-control " {{#required}} required="true" {{/required}} {{^required}} {{/required}} />
+    <input id="{{ id }}" name="{{ id }}" type="email" placeholder="{{ placeholder }}" class="form-control " {{#required}} required="true" {{/required}} {{^required}} {{/required}} />
     {{#helptext.length}} <span class="form-text text-muted">{{ helptext }}</span> {{/helptext.length}}
 </div>
 

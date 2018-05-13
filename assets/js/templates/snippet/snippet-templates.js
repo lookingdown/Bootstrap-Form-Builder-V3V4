@@ -21,6 +21,7 @@ define(function(require) {
 	  selectmultiple           = require('text!templates/snippet/selectmultiple.html'),
 	  textarea                 = require('text!templates/snippet/textarea.html'),
 	  textinput                = require('text!templates/snippet/textinput.html');
+	  emailinput                = require('text!templates/snippet/emailinput.html');
 
   return {
      formname                 : formname,
@@ -44,6 +45,7 @@ define(function(require) {
      selectbasic              : selectbasic,
      selectmultiple           : selectmultiple,
      textarea                 : textarea,
-     textinput                : textinput
+     textinput                : textinput,
+	 emailinput               : emailinput
   }
 });
