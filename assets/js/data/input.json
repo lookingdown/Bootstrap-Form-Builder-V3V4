@@ -12,17 +12,17 @@
         "value": [
           {
             "label": "Small",
-            "value": "input-sm",
+            "value": "form-control-sm",
             "selected": false
           },
           {
             "label": "Medium",
-            "value": "input-md",
+            "value": "form-control-md",
             "selected": true
           },
           {
             "label": "Large",
-            "value": "input-lg",
+            "value": "form-control-lg",
             "selected": false
           }
         ]
@@ -56,7 +56,7 @@
       "helptext": {
         "type": "input",
         "label": "Help Text",
-        "value": "help"
+        "value": ""
       },
       "placeholder": {
         "type": "input",
@@ -76,6 +76,78 @@
       "id": {
         "type": "input",
         "label": "ID / Name",
+        "value": "emailinput"
+      },
+      "inputsize": {
+        "type": "select",
+        "label": "Input Size",
+        "value": [
+          {
+            "label": "Small",
+            "value": "form-control-sm",
+            "selected": false
+          },
+          {
+            "label": "Medium",
+            "value": "form-control-md",
+            "selected": true
+          },
+          {
+            "label": "Large",
+            "value": "form-control-lg",
+            "selected": false
+          }
+        ]
+      },
+      "inputwidth": {
+        "type": "select",
+        "label": "Input Width",
+        "value": [
+          {
+            "label": "Short",
+            "value": "col-sm-4",
+            "selected": false
+          },
+          {
+            "label": "Medium",
+            "value": "col-sm-6",
+            "selected": true
+          },
+          {
+            "label": "Long",
+            "value": "col-sm-8",
+            "selected": false
+          }
+        ]
+      },
+      "label": {
+        "type": "input",
+        "label": "Label Text",
+        "value": "Email Input"
+      },
+      "helptext": {
+        "type": "input",
+        "label": "Help Text",
+        "value": ""
+      },
+      "placeholder": {
+        "type": "input",
+        "label": "Placeholder",
+        "value": "placeholder"
+      },
+      "required": {
+        "type": "checkbox",
+        "label": "Required",
+        "value": false
+      }
+    },
+    "title": "Email Input"
+  },
+  {
+    "fields": {
+      "id": {
+        "type": "input",
+        "label": "ID / Name",
         "value": "passwordinput"
       },
       "inputsize": {
@@ -84,17 +156,17 @@
         "value": [
           {
             "label": "Small",
-            "value": "input-sm",
+            "value": "form-control-sm",
             "selected": false
           },
           {
             "label": "Medium",
-            "value": "input-md",
+            "value": "form-control-md",
             "selected": true
           },
           {
             "label": "Large",
-            "value": "input-lg",
+            "value": "form-control-lg",
             "selected": false
           }
         ]
@@ -128,7 +200,7 @@
       "helptext": {
         "type": "input",
         "label": "Help Text",
-        "value": "help"
+        "value": ""
       },
       "placeholder": {
         "type": "input",
@@ -156,17 +228,17 @@
         "value": [
           {
             "label": "Small",
-            "value": "input-sm",
+            "value": "form-control-sm",
             "selected": false
           },
           {
             "label": "Medium",
-            "value": "input-md",
+            "value": "form-control-md",
             "selected": true
           },
           {
             "label": "Large",
-            "value": "input-lg",
+            "value": "form-control-lg",
             "selected": false
           }
         ]
@@ -200,7 +272,7 @@
       "helptext": {
         "type": "input",
         "label": "Help Text",
-        "value": "help"
+        "value": ""
       },
       "placeholder": {
         "type": "input",
@@ -233,17 +305,17 @@
         "value": [
           {
             "label": "Small",
-            "value": "input-sm",
+            "value": "input-group-sm",
             "selected": false
           },
           {
             "label": "Medium",
-            "value": "input-md",
+            "value": "input-group-md",
             "selected": true
           },
           {
             "label": "Large",
-            "value": "input-lg",
+            "value": "input-group-lg",
             "selected": false
           }
         ]
@@ -277,7 +349,7 @@
       "helptext": {
         "type": "input",
         "label": "Help Text",
-        "value": "help"
+        "value": ""
       },
       "placeholder": {
         "type": "input",
@@ -310,17 +382,17 @@
         "value": [
           {
             "label": "Small",
-            "value": "input-sm",
+            "value": "input-group-sm",
             "selected": false
           },
           {
             "label": "Medium",
-            "value": "input-md",
+            "value": "input-group-md",
             "selected": true
           },
           {
             "label": "Large",
-            "value": "input-lg",
+            "value": "input-group-lg",
             "selected": false
           }
         ]
@@ -354,7 +426,7 @@
       "helptext": {
         "type": "input",
         "label": "Help Text",
-        "value": "help"
+        "value": ""
       },
       "placeholder": {
         "type": "input",
@@ -382,17 +454,17 @@
         "value": [
           {
             "label": "Small",
-            "value": "input-sm",
+            "value": "input-group-sm",
             "selected": false
           },
           {
             "label": "Medium",
-            "value": "input-md",
+            "value": "input-group-md",
             "selected": true
           },
           {
             "label": "Large",
-            "value": "input-lg",
+            "value": "input-group-lg",
             "selected": false
           }
         ]
@@ -426,7 +498,7 @@
       "helptext": {
         "type": "input",
         "label": "Help Text",
-        "value": "help"
+        "value": ""
       },
       "placeholder": {
         "type": "input",
@@ -459,17 +531,17 @@
         "value": [
           {
             "label": "Small",
-            "value": "input-sm",
+            "value": "input-group-sm",
             "selected": false
           },
           {
             "label": "Medium",
-            "value": "input-md",
+            "value": "input-group-md",
             "selected": true
           },
           {
             "label": "Large",
-            "value": "input-lg",
+            "value": "input-group-lg",
             "selected": false
           }
         ]
@@ -503,7 +575,7 @@
       "helptext": {
         "type": "input",
         "label": "Help Text",
-        "value": "help"
+        "value": ""
       },
       "placeholder": {
         "type": "input",
@@ -550,17 +622,17 @@
         "value": [
           {
             "label": "Small",
-            "value": "input-sm",
+            "value": "form-control-sm",
             "selected": false
           },
           {
             "label": "Medium",
-            "value": "input-md",
+            "value": "form-control-md",
             "selected": true
           },
           {
             "label": "Large",
-            "value": "input-lg",
+            "value": "form-control-lg",
             "selected": false
           }
         ]
@@ -599,7 +671,7 @@
       "helptext": {
         "type": "input",
         "label": "Help Text",
-        "value": "help"
+        "value": ""
       },
       "required": {
         "type": "checkbox",
@@ -645,7 +717,7 @@
       "helptext": {
         "type": "input",
         "label": "Help Text",
-        "value": "help"
+        "value": ""
       },
       "textarea": {
         "type": "textarea",
